@@ -1,0 +1,4 @@
+lc3/**
+src/*.mem
+src/*.obj
+src/*.sym

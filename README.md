@@ -2,9 +2,9 @@
 
 ## About
 
-**LC-3 Microprocessor Simulator** is an academic project focused on the implementation, completion, and simulation of a 16-bit **Little Computer 3 (LC-3)** architecture using **Logisim**. Built upon a provided academic framework and base schema, this project involves designing, wiring, and validating the core functional blocks of the processor, such as the datapath, the control unit, and instruction decoding.
+L-3 Microprocessor Simulator is a first-year Master's (M1 IMPAIRS) project at Université Paris Cité focused on the implementation, hardware extension, and simulation of a 16-bit **Little Computer 3 (LC-3)** architecture using **Logisim**. Built upon an academic framework and base schema, this project demonstrates a deep understanding of computer architecture, digital logic design, datapath and control unit wiring, and low-level assembly programming.
 
-The simulator successfully executes the standard LC-3 instruction set architecture, supporting arithmetic/logic operations, memory access, and control flow instructions.
+The simulator successfully executes the standard LC-3 instruction set, integrates custom hardware instructions like `XOR` and `POPCNT` (Population Count), and runs advanced assembly subroutines (such as string manipulation, bit scanning, and saturated arithmetic with overflow prediction).
 
 *Note: As this was an academic project, documentation or comments may contain some French.*
 
@@ -21,6 +21,7 @@ The simulator successfully executes the standard LC-3 instruction set architectu
 - **Instruction Set Support:** Full implementation of standard instructions including `ADD`, `AND`, `NOT`, memory operations (`LD`, `LDI`, `LDR`, `ST`, `STI`, `STR`), and control flows (`BR`, `JMP`, `JSR`, `RET`).
 - **Custom Assembly Programs:** Development and execution of dedicated `.asm` source files to test, validate, and demonstrate instruction processing on the simulated processor.
 - **Interactive Simulation:** Real-time visualization of signal propagation, register states, and instruction execution ticks within Logisim.
+- **Hardware Extensions:** Wiring and integration of custom instructions such as `XOR` and `POPCNT` into the Logisim datapath, ALU, and control unit.
 
 ## Project Structure
 
